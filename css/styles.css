@@ -73,3 +73,82 @@ nav .container {
 .hero__header {
   margin-bottom: 28px;
 }
+
+#why-me {
+  padding: var(--size-100) 0;
+}
+
+.why-me-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.why-me-wrapper div {
+  flex: 1;
+}
+
+.block-text {
+  margin-right: var(--size-50);
+}
+
+.block-text span {
+  color: var(--font-color-dark);
+  font-weight: 300;
+}
+
+.block-text h2 {
+  margin-bottom: var(--size-20);
+  color: var(--font-color-dark);
+  font-weight: 600;
+  font-size: var(--size-40);
+  font-family: "Hinds", sans-serif;
+  line-height: 1.3;
+}
+
+.bg-contrast {
+  background-color: var(--contrast);
+  padding: var(--size-100) 0;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--size-20);
+}
+
+.service-card {
+  padding: var(--size-30);
+  box-shadow: 0 0 10px rgba(48, 63, 100, 0.15);
+  background: white;
+  border-radius: 8px;
+}
+
+.service-card > span {
+  display: block;
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+  background-color: red;
+  float: left;
+  margin-right: 16px;
+}
+
+span.bg-color-1 {
+  background: linear-gradient(to right, #9ccdf3, #94aafd);
+}
+
+span.bg-color-2 {
+  background: linear-gradient(to right, #55edc0, #4bdbdb);
+}
+span.bg-color-3 {
+  background: linear-gradient(to right, #fda498, #f58b9e);
+}
+span.bg-color-4 {
+  background: linear-gradient(to right, #f2a7ca, #c2894f);
+}
+span.bg-color-5 {
+  background: linear-gradient(to right, #ffc187, #fe93a7);
+}
+span.bg-color-6 {
+  background: linear-gradient(to right, #a1ecff, #7bbcff);
+}
