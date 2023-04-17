@@ -42,6 +42,10 @@ nav .container {
 
 .bg__header {
   background-image: url(/assets/CodeRad-assets/bg-header-1.jpg);
+}
+
+.bg__header,
+.video-demo {
   background-color: var(--footer);
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,4 +155,21 @@ span.bg-color-5 {
 }
 span.bg-color-6 {
   background: linear-gradient(to right, #a1ecff, #7bbcff);
+}
+
+.video-demo {
+  background-image: url(/assets/CodeRad-assets/bg-demo.jpg);
+}
+
+.video-demo {
+  text-align: center;
+}
+
+.video-demo .block-text {
+  padding-right: 0;
+}
+
+.video-demo .block-text h2,
+.video-demo .block-text p {
+  color: var(--white);
 }
